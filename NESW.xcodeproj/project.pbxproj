@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C491F11F200F12FC006F2914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F11E200F12FC006F2914 /* AppDelegate.swift */; };
-		C491F121200F12FC006F2914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F120200F12FC006F2914 /* ViewController.swift */; };
+		C491F121200F12FC006F2914 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F120200F12FC006F2914 /* FirstViewController.swift */; };
 		C491F124200F12FC006F2914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C491F122200F12FC006F2914 /* Main.storyboard */; };
 		C491F126200F12FC006F2914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C491F125200F12FC006F2914 /* Assets.xcassets */; };
 		C491F129200F12FC006F2914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C491F127200F12FC006F2914 /* LaunchScreen.storyboard */; };
 		C491F134200F12FC006F2914 /* NESWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F133200F12FC006F2914 /* NESWTests.swift */; };
 		C491F13F200F12FC006F2914 /* NESWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F13E200F12FC006F2914 /* NESWUITests.swift */; };
+		C491F14D200F177C006F2914 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F14C200F177C006F2914 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C491F11B200F12FC006F2914 /* NESW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C491F11E200F12FC006F2914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C491F120200F12FC006F2914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C491F120200F12FC006F2914 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C491F123200F12FC006F2914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C491F125200F12FC006F2914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C491F128200F12FC006F2914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		C491F13A200F12FC006F2914 /* NESWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C491F13E200F12FC006F2914 /* NESWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWUITests.swift; sourceTree = "<group>"; };
 		C491F140200F12FC006F2914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C491F14C200F177C006F2914 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				C491F11E200F12FC006F2914 /* AppDelegate.swift */,
-				C491F120200F12FC006F2914 /* ViewController.swift */,
+				C491F120200F12FC006F2914 /* FirstViewController.swift */,
 				C491F122200F12FC006F2914 /* Main.storyboard */,
+				C491F14C200F177C006F2914 /* SecondViewController.swift */,
 				C491F125200F12FC006F2914 /* Assets.xcassets */,
 				C491F127200F12FC006F2914 /* LaunchScreen.storyboard */,
 				C491F12A200F12FC006F2914 /* Info.plist */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C491F121200F12FC006F2914 /* ViewController.swift in Sources */,
+				C491F14D200F177C006F2914 /* SecondViewController.swift in Sources */,
+				C491F121200F12FC006F2914 /* FirstViewController.swift in Sources */,
 				C491F11F200F12FC006F2914 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
